@@ -1,6 +1,9 @@
-.navi-bar { width: 1440px; height: 174px; background-color:  #FFFFFF;
+.header { background-color: black; display: flex; justify-content: center; }
+.main-body { display: flex; justify-content: center; background-color: black; }
+.body { width: 1440px;  }
+.navi-bar { width: 1440px; height: 174px; background-color:  black;
     aqua; display: flex; position: relative;}
-.logo { width: 180px; height: 51px; background-color: brown; position: absolute; top: 85px; left: 80px; }
+.logo { width: 180px; height: 51px; position: absolute; top: 85px; left: 80px; font-size: 30PX;  color: #75BF7A; border: 0.44px solid #WHITE ;}
 .one { width: 47px;
     height: 21px;
     top: 102px;
@@ -27,4 +30,95 @@
     left: 1030px;
      }
 
-.menu-button {  }     
+.four{ width: 127px;
+    height: 27px;
+    position: absolute;
+    top: 99px;
+    left: 1206px;
+    font-family: Gilroy;
+    background-color:  #75BF7A;
+    color: black ;
+font-weight: 600;
+line-height: 27px;
+letter-spacing: 0em;
+text-align: left;
+border: 1px solid black;
+text-align: center;
+     }     
+.vito { color: white; }
+.p { width: 557px;
+    height: 198px;
+    top: 337px;
+    left: 80px;
+    font-family: Gilroy;
+font-size: 61px;
+font-weight: 800;
+line-height: 66px;
+letter-spacing: 0em;
+text-align: left;
+     }
+.right-side { width: 553px;
+    height: 582.81px;
+    top: 228.83px;
+    left: 740px;
+     } 
+.small-p { width: 550px;
+    height: 120px;
+    top: 562px;
+    left: 80px;
+    color: #9E9DA2;
+    ;
+     }
+ .body { display: flex; }    
+ .button-linkings { display: flex; }
+.button-one { width: 260px;
+    height: 66.77px;
+    top: 744px;
+    left: 80px;
+    border-radius: 5px;
+    background: white;
+display: flex;
+justify-content: center;
+align-items: center;
+     }
+.button-one > img { width: 45px;
+    height: 39.89px;
+    top: 756.77px;
+    left: 112px;
+    padding: 5.01px, 6.72px, 4.99px, 7.5px;
+    }
+.button-two {
+    margin-left: 15px;
+     width: 260px;
+    height: 67px;
+    top: 744px;
+    left: 370px;
+    border-radius: 5px;
+    background-color: white;
+    display: flex;
+justify-content: center;
+align-items: center;
+     } 
+.button-two > img { width: 34.17px;
+    height: 34.17px;
+    top: 3.42px;
+    left: 3.42px;
+     }
+.img-heading { width: 141px;
+    top: 776px;
+    left: 167px;
+    font-family: Gilroy;
+font-size: 25px;
+font-weight: 800;
+letter-spacing: 0em;
+text-align: left;
+    }    
+.imgi-heading { width: 141px;
+    top: 777px;
+    left: 456px;
+    font-family: Gilroy;
+    font-size: 25px;
+    font-weight: 800;
+    letter-spacing: 0em;
+    text-align: left;
+     }
