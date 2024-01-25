@@ -1,0 +1,6 @@
+.header {height: 174px; background-color:blue; display: flex; justify-content: center; align-items: center; }
+.navi-bar { width: 1440px;height: 174px; background-color:aqua; display: flex;}
+.logo { width: 180px; height: 51px;margin-top: 85px; margin-left: 80px; background-color: brown;}
+.logo-div , .dropdowns { height: 100%; width: 50%; }
+.logo-div { display: flex; align-items: center; justify-content: flex-start; background-color: blueviolet; }
+.dropdowns { display: flex; align-items: center; justify-content: flex-end; background-color: burlywood; }
