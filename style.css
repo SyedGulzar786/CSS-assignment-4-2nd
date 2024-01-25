@@ -1,6 +1,30 @@
-.header {height: 174px; background-color:blue; display: flex; justify-content: center; align-items: center; }
-.navi-bar { width: 1440px;height: 174px; background-color:aqua; display: flex;}
-.logo { width: 180px; height: 51px;margin-top: 85px; margin-left: 80px; background-color: brown;}
-.logo-div , .dropdowns { height: 100%; width: 50%; }
-.logo-div { display: flex; align-items: center; justify-content: flex-start; background-color: blueviolet; }
-.dropdowns { display: flex; align-items: center; justify-content: flex-end; background-color: burlywood; }
+.navi-bar { width: 1440px; height: 174px; background-color:  #FFFFFF;
+    aqua; display: flex; position: relative;}
+.logo { width: 180px; height: 51px; background-color: brown; position: absolute; top: 85px; left: 80px; }
+.one { width: 47px;
+    height: 21px;
+    top: 102px;
+    left: 771px;
+    position: absolute;
+ }
+.menu-links { font-family: Gilroy;
+    font-size: 17px;
+    font-weight: 500;
+    line-height: 21px;
+    letter-spacing: 0em;
+    text-align: left;
+     }
+.two { width: 120px;
+    height: 21px;
+    position: absolute;
+    top: 102px;
+    left: 864px;
+}
+.three { width: 101px;
+    height: 21px;
+    position: absolute;
+    top: 102px;
+    left: 1030px;
+     }
+
+.menu-button {  }     
