@@ -1,6 +1,6 @@
 .header { background-color: black; display: flex; justify-content: center; }
 .main-body { display: flex; justify-content: center; background-color: black; }
-.body { width: 1440px;  }
+.body { width: 1440px; text-align: center; display: flex; justify-content: center; flex-flow: column; gap: 60px; }
 .navi-bar { width: 1440px; height: 174px; background-color:  black;
     aqua; display: flex; position: relative;}
 .logo { width: 180px; height: 51px; position: absolute; top: 85px; left: 80px; font-size: 30PX;  color: #75BF7A; border: 0.44px solid #WHITE ;}
@@ -69,7 +69,7 @@ text-align: left;
     color: #9E9DA2;
     ;
      }
- .body { display: flex; }    
+ .sides { display: flex; }    
  .button-linkings { display: flex; }
 .button-one { width: 260px;
     height: 66.77px;
@@ -121,4 +121,62 @@ text-align: left;
     font-weight: 800;
     letter-spacing: 0em;
     text-align: left;
+     }
+.greek{  width: 100%; display: flex; justify-content: center; align-items: center; }
+.green{ width: 1280px;
+    height: 166px;
+    top: 897px;
+    left: 80px;
+    border-radius: 10px;
+    background-color: #75BF7A;
+    display:flex; align-items: center; justify-content: center;
+    padding-right: 50px;
+    }
+.g-p { width: 246px;
+    height: 56px;
+    top: 952px;
+    left: 152px;
+    font-family: Gilroy;
+font-size: 25px;
+font-weight: 600;
+line-height: 28px;
+letter-spacing: 0em;
+text-align: left;
+     }
+.g-inp { width: 499px;
+    height: 67px;
+    top: 717px;
+    left: 520px;
+    border-radius: 4.39px;
+     }
+.g-btn { 
+    width: 260px;
+    height: 67px;
+    top: 947px;
+    left: 1030px;
+    border-radius: 4.39px;
+    background-color: black;
+}
+.btn { width: 165px;
+    top: 981px;
+    left: 1082px;
+    font-family: Gilroy;
+font-size: 22px;
+font-weight: 800;
+letter-spacing: 0em;
+text-align: left;
+
+     }
+.gappu { margin-left: 15px; }
+.question-div { width: 100%; display: flex; justify-content: center; align-items: center; }
+.question { width: 403px;
+    height: 51px;
+    top: 1191px;
+    left: 518px;
+    font-family: Gilroy;
+font-size: 46px;
+font-weight: 800;
+line-height: 50px;
+letter-spacing: 0em;
+text-align: left;
      }
