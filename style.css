@@ -1,6 +1,6 @@
 .header { background-color: black; display: flex; justify-content: center; }
 .main-body { display: flex; justify-content: center; background-color: black; }
-.body { width: 1440px; text-align: center; display: flex; justify-content: center; flex-flow: column; gap: 60px; }
+.body {  text-align: center; display: flex; justify-content: center; flex-flow: column; gap: 60px; }
 .navi-bar { width: 1440px; height: 174px; background-color:  black;
     aqua; display: flex; position: relative;}
 .logo { width: 180px; height: 51px; position: absolute; top: 85px; left: 80px; font-size: 30PX;  color: #75BF7A; border: 0.44px solid #WHITE ;}
@@ -169,7 +169,7 @@ text-align: left;
      }
 .gappu { margin-left: 15px; }
 .question-div { width: 100%; display: flex; justify-content: center; align-items: center; }
-.question { width: 403px;
+.question { width: 440px;
     height: 51px;
     top: 1191px;
     left: 518px;
@@ -179,4 +179,127 @@ font-weight: 800;
 line-height: 50px;
 letter-spacing: 0em;
 text-align: left;
+     }
+.span { color:#75BF7A; }
+.answer-div { width: 100%; display: flex; justify-content: center; align-items: center; }
+.answer { width: 620px;
+    height: 96px;
+    top: 1267px;
+    left: 410px;
+    font-family: Gilroy;
+font-size: 23px;
+font-weight: 500;
+line-height: 26px;
+letter-spacing: 0em;
+text-align: center;
+color:#9E9DA2;
+     }
+.main-m-pdfs { justify-content: center; align-items: center; } 
+.main-pdfs { position: relative; }
+.a-uno { position: absolute; width: 166px;
+    height: 51px;
+    top: 1127px;
+    left: 514px;
+    font-family: Gilroy;
+font-size: 22px;
+font-weight: 800;
+line-height: 50px;
+letter-spacing: 0em;
+text-align: right;
+     }
+.b-uno { position: absolute; width: 290px;
+    height: 91px;
+    top: 1178px;
+    left: 390px;
+    font-family: Gilroy;
+font-size: 20px;
+font-weight: 500;
+line-height: 26px;
+letter-spacing: 0em;
+text-align: right;
+     }
+.a-duo { position: absolute; width: 127px;
+    height: 51px;
+    top: 1127px;
+    left: 1160px;
+    font-family: Gilroy;
+font-size: 22px;
+font-weight: 800;
+line-height: 50px;
+letter-spacing: 0em;
+text-align: left;
+     }
+.b-duo { position: absolute; width: 290px;
+    height: 91px;
+    top: 1178px;
+    left: 1160px;
+    font-family: Gilroy;
+font-size: 20px;
+font-weight: 500;
+line-height: 26px;
+letter-spacing: 0em;
+text-align: left;
+     }
+.a-tress { position: absolute; width: 250px;
+    height: 51px;
+    top: 1418px;
+    left: 430px;
+    font-family: Gilroy;
+font-size: 22px;
+font-weight: 800;
+line-height: 50px;
+letter-spacing: 0em;
+text-align: right;
+     }
+.b-tress { position: absolute; width: 290px;
+    height: 91px;
+    top: 1469px;
+    left: 390px;
+    font-family: Gilroy;
+font-size: 20px;
+font-weight: 500;
+line-height: 26px;
+letter-spacing: 0em;
+text-align: right;
+     }   
+     
+.a-fior { position: absolute; width: 206px;
+    height: 51px;
+    top: 1418px;
+    left: 1160px;
+    font-family: Gilroy;
+font-size: 22px;
+font-weight: 800;
+line-height: 50px;
+letter-spacing: 0em;
+text-align: left;
+     }    
+.b-fior { position: absolute; width: 290px;
+    height: 91px;
+    top: 1469px;
+    left: 1160px;
+    font-family: Gilroy;
+font-size: 20px;
+font-weight: 500;
+line-height: 26px;
+letter-spacing: 0em;
+text-align: left;
+     }
+.circular { position: absolute; width: 400px;
+    height: 400px;
+    top: 1106px;
+    left: 720px;
+    border-radius: 50%;
+    background-color: #75BF7A; }
+.mute-space { height: 400px; }
+.upper-hand { color: white; }
+.lower-hand { color: #9E9DA2; }
+.doted-line { display: flex; padding-left: 570px; } 
+.ted-line { width: 65px;
+    height: 12.77px;
+    top: 2045.32px;
+    left: 688px;
+    padding: 0px, 0px, 0px, 0px; 
+    background-color: #75BF7A; 
+    display: flex; justify-content: center; align-items: center;
      }
